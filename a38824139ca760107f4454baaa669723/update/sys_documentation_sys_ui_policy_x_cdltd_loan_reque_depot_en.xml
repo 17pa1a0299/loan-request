@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="x_cdltd_loan_reque_depot" label="depot" language="en" table="sys_ui_policy">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>x_cdltd_loan_reque_depot</element>
+            <help/>
+            <hint/>
+            <label>depot</label>
+            <language>en</language>
+            <name>sys_ui_policy</name>
+            <plural>depots</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-04-22 05:16:34</sys_created_on>
+            <sys_id>c8a8cd2f9c63a0107f4454baaa669702</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>depot</sys_name>
+            <sys_package display_value="Loan request" source="x_cdltd_loan_reque">a38824139ca760107f4454baaa669723</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Loan request">a38824139ca760107f4454baaa669723</sys_scope>
+            <sys_update_name>sys_documentation_sys_ui_policy_x_cdltd_loan_reque_depot_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-04-22 05:16:34</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

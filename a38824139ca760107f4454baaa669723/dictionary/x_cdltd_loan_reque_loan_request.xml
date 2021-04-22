@@ -1,3 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="task" label="loan request" max_length="40" name="x_cdltd_loan_reque_loan_request" type="collection"/>
+    <element extends="task" label="loan request" max_length="40" name="x_cdltd_loan_reque_loan_request" sizeclass="0" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="End date" mandatory="true" max_length="40" name="end_date" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="mobile phone" label="Item type" max_length="40" name="item_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Laptop" sequence="0" value="laptop"/>
+                <element inactive_on_update="false" label="Mobile Phone" sequence="1" value="mobile phone"/>
+                <element inactive_on_update="false" label="Projecter" sequence="2" value="projecter"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Other" max_length="40" name="other" type="string"/>
+        <element attributes="encode_utf8=false" label="Requested for" mandatory="true" max_length="32" name="requested_for" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Start date" mandatory="true" max_length="40" name="start_data" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Date/Time" max_length="40" name="u_glide_date_time_5" type="glide_date_time"/>
+    </element>
 </database>
