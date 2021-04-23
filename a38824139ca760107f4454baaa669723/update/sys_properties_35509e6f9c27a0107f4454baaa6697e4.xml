@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>number of hours before a reservation end to send a reminder to the requester</description>
+        <ignore_cache>true</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_cdltd_loan_reque.return.remindtree</name>
+        <read_roles>x_cdltd_loan_reque.admin</read_roles>
+        <suffix>return.remindtree </suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-04-22 10:32:08</sys_created_on>
+        <sys_id>35509e6f9c27a0107f4454baaa6697e4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_cdltd_loan_reque.return.remindtree</sys_name>
+        <sys_package display_value="Loan request" source="x_cdltd_loan_reque">a38824139ca760107f4454baaa669723</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loan request">a38824139ca760107f4454baaa669723</sys_scope>
+        <sys_update_name>sys_properties_35509e6f9c27a0107f4454baaa6697e4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-04-22 10:32:40</sys_updated_on>
+        <type>integer</type>
+        <value>24</value>
+        <write_roles>x_cdltd_loan_reque.admin</write_roles>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=35509e6f9c27a0107f4454baaa6697e4"/>
+</record_update>

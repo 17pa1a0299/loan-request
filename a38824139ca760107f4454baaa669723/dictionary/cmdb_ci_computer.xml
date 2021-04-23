@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="cmdb_ci_hardware" label="Computer" max_length="40" name="cmdb_ci_computer" sizeclass="855" type="collection">
+        <element label="loan" max_length="40" name="x_cdltd_loan_reque_loan" type="boolean"/>
+        <element label="New True/False" max_length="40" name="x_cdltd_loan_reque_u_boolean_4" type="boolean"/>
+        <element label="New Data Structure" max_length="800" name="x_cdltd_loan_reque_u_data_structure_3" type="data_structure"/>
+        <element label="Loan" max_length="40" name="x_cdltd_loan_reque_u_loan" type="boolean"/>
+        <element label="Loaner" max_length="40" name="x_cdltd_loan_reque_u_loaner" type="boolean"/>
+    </element>
+</database>

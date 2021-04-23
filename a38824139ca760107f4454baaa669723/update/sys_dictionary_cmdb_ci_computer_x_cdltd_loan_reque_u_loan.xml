@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="" extends="task" table="x_cdltd_loan_reque_loan_request">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="x_cdltd_loan_reque_u_loan" table="cmdb_ci_computer">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -9,7 +9,7 @@
         <choice>0</choice>
         <choice_field/>
         <choice_table/>
-        <column_label/>
+        <column_label>Loan</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -22,15 +22,15 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element/>
+        <element>x_cdltd_loan_reque_u_loan</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="Collection">collection</internal_type>
+        <internal_type display_value="">boolean</internal_type>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <name>x_cdltd_loan_reque_loan_request</name>
+        <name>cmdb_ci_computer</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
@@ -42,21 +42,21 @@
         <reference_qual/>
         <reference_qual_condition/>
         <reference_type/>
-        <sizeclass>3</sizeclass>
+        <sizeclass/>
         <spell_check>false</spell_check>
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-04-21 08:21:28</sys_created_on>
-        <sys_id>2659ac139ca760107f4454baaa669729</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>x_cdltd_loan_reque_loan_request</sys_name>
+        <sys_created_on>2021-04-23 06:43:40</sys_created_on>
+        <sys_id>252662379c23e0107f4454baaa66978d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Loan</sys_name>
         <sys_package display_value="Loan request" source="x_cdltd_loan_reque">a38824139ca760107f4454baaa669723</sys_package>
         <sys_policy/>
         <sys_scope display_value="Loan request">a38824139ca760107f4454baaa669723</sys_scope>
-        <sys_update_name>sys_dictionary_x_cdltd_loan_reque_loan_request_null</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2021-04-22 10:40:17</sys_updated_on>
+        <sys_update_name>sys_dictionary_cmdb_ci_computer_x_cdltd_loan_reque_u_loan</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-04-23 06:43:40</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
